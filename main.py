@@ -61,8 +61,9 @@ def getUser():
         {"id": 47, "nome": "Jiraya", "curso": "Mestrado em ciências ambientais", "saldo": 367},
         {"id": 48, "nome": "Seu Madruga", "curso": "Administração", "saldo": 872},
         {"id": 49, "nome": "Paola Bracho", "curso": "Psicologia", "saldo": 730},
-        {"id": 50, "nome": "Leornad Mccopy", "curso": "Medicina", "saldo": 381},
+        {"id": 50, "nome": "Leonard Mccoy", "curso": "Medicina", "saldo": 381},
     )
+    
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 3000))
     app.run(debug=True, host='0.0.0.0', port=port)
